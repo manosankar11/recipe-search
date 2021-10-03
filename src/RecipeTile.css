@@ -1,0 +1,15 @@
+.recipeTile{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+.recipeTile__img{
+width: 200px;
+border-radius: 5px;
+border: 3px solid rgb(42, 78, 60);
+cursor: pointer;
+}
+.recipeTile__label{
+    color: #fff;
+    font-size: large;
+}

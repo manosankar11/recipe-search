@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: rgb(37, 44, 44);
 }
-
-.App-link {
-  color: #61dafb;
+.app__searchForm{
+margin-top: 18px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__input {
+  padding: 6px 16px;
+  max-width: 200px;
+  min-width: 15px;
+  font-size: 20px;
+}
+.title{
+  color: #fff;
+  font-size: 75px;
+  font-weight: 300;
+}
+.app__submit{
+  padding: 6px ;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: aqua;
+  border-radius: 2px solid #fff;
+  cursor: pointer;
+}
+.app__healthlabel{
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid rgb(150, 148, 148);
 }
